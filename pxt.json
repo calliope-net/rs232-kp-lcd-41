@@ -1,0 +1,26 @@
+{
+    "name": "rs232-kp-lcd-41",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "rs232": "github:calliope-net/rs232#v0.0.4",
+        "pins": "github:calliope-net/pins#v1.0.1",
+        "lcd-16x2": "github:calliope-net/lcd-16x2#v2.0.6"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "4.0.29",
+        "targetId": "calliopemini"
+    },
+    "supportedTargets": [
+        "calliopemini"
+    ],
+    "preferredEditor": "blocksprj"
+}
